@@ -1,0 +1,27 @@
+[
+  {
+    "options": [],
+    "name": "ayuda",
+    "description": "Muestra los comandos del bot con su descripción entre otras cosas!",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "ping",
+    "description": "Responde con el estado del bot!",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "type": 1,
+        "name": "info",
+        "description": "Muestra información del servidor.",
+        "options": []
+      }
+    ],
+    "name": "server",
+    "description": "Comandos relacionados al servidor.",
+    "type": 1
+  }
+]

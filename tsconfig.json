@@ -1,0 +1,53 @@
+{
+	"compilerOptions": {
+		"target": "es2025",
+		"module": "esnext",
+		"rootDir": "src",
+		"outDir": "dist",
+		"strict": true,
+		"moduleResolution": "bundler",
+		"importHelpers": true,
+		"experimentalDecorators": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"noFallthroughCasesInSwitch": true,
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true,
+		"forceConsistentCasingInFileNames": true,
+		"removeComments": false,
+		"typeRoots": [
+			"./node_modules/@types",
+			"index.d.ts"
+		],
+		"sourceMap": true,
+		"noImplicitAny": false,
+		"emitDeclarationOnly": false,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"declaration": true,
+		"paths": {
+			"@/*": [
+				"./src/*"
+			],
+			"@builders/*": [
+				"./src/builders/*"
+			],
+		},
+		"emitDecoratorMetadata": true,
+		"preserveConstEnums": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"noImplicitThis": true,
+		"noImplicitReturns": true,
+		"noErrorTruncation": true,
+		"stripInternal": true
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"include": [
+		"index.d.ts"
+	],
+	"baseUrl": "./",
+}
